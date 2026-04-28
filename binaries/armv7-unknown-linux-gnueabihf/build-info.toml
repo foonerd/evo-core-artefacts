@@ -1,9 +1,9 @@
 schema_version = 0
 kind = "core-binaries"
-evo_core_tag = "v0.1.11-rc.1"
+evo_core_tag = "v0.1.11-rc.2"
 target = "armv7-unknown-linux-gnueabihf"
 binaries = ["evo", "evo-plugin-tool"]
-built_at = "2026-04-28T19:49:54Z"
+built_at = "2026-04-28T20:17:07Z"
 publisher = "org.evoframework.core"
 
 [[auxiliary]]
