@@ -1,15 +1,7 @@
 schema_version = 0
 kind = "core-binaries"
-evo_core_tag = "v0.1.12"
+evo_core_tag = "v0.1.10"
 target = "aarch64-unknown-linux-gnu"
 binaries = ["evo", "evo-plugin-tool"]
-built_at = "2026-05-02T13:08:57Z"
+built_at = "2026-05-02T17:00:59Z"
 publisher = "org.evoframework.core"
-
-[[auxiliary]]
-path = "dist/systemd/evo.service.example"
-sha256 = "793ee734157ba4106ccb61a1f2f7b02285ab82d91c275a057e5e013ecd9a0aa7"
-
-[[auxiliary]]
-path = "dist/systemd/README.md"
-sha256 = "0c9f3e0bd2c01159d588246ab606ad9e4bb753f1c3721692c57df1fad59988d5"
