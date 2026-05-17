@@ -87,7 +87,7 @@ A device's verification chain treats the framework public key as the root of tru
 
 ## Status
 
-Live. Tagged releases populate the repository on every framework `v*.*.*` tag. Channel pointers and a multi-channel manifest are deferred to a future release-plane revision; today's contract is "one tag, one commit here, one set of bytes per architecture."
+Live. Tagged releases populate the repository on every framework `v*.*.*` tag. Channel pointers and a multi-channel manifest are out of the current release-plane revision; today's contract is "one tag, one commit here, one set of bytes per architecture."
 
 ## Related
 
