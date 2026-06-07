@@ -31,7 +31,7 @@ Bundle shape and manifest schema are defined in [evo-core's `docs/engineering/RE
 
 | Target triple                   | Status                                                                         |
 | ------------------------------- | ------------------------------------------------------------------------------ |
-| `aarch64-unknown-linux-gnu`     | Shipped from rc.1 onward; validated end-to-end on the Pi 5 prototype           |
+| `aarch64-unknown-linux-gnu`     | Shipped from rc.1 onward; validated end-to-end on a reference aarch64 device   |
 | `x86_64-unknown-linux-gnu`      | Shipped from rc.1 onward; cross-build only, no hardware acceptance test today  |
 | `armv7-unknown-linux-gnueabihf` | Shipped from rc.1 onward; cross-build only, no hardware acceptance test today  |
 
