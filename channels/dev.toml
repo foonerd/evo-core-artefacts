@@ -1,0 +1,32 @@
+# evo-core release-plane channel pointer — dev
+#
+# Names the current evo-core binary release tracked by the `dev`
+# channel. Promotion is a pointer edit: bump `release_version` to
+# point at a release already present in this repo under
+# `binaries/<arch>/` and `bundles/`. Bytes never change on promotion.
+#
+# Signed with the evo project release key. Consumers refuse to
+# apply an unsigned or invalidly-signed pointer.
+
+schema_version = 0
+publisher = "org.evoframework"
+channel = "dev"
+updated_at = "2026-07-10T00:00:00Z"
+
+# Placeholder until the first v0.1.13 release is published.
+# Track 4G promote will advance this pointer.
+release_version = ""
+
+# Supported architectures for this release.
+architectures = [
+    "aarch64-unknown-linux-gnu",
+    "armv7-unknown-linux-gnueabihf",
+    "x86_64-unknown-linux-gnu",
+]
+
+# The binaries published under each architecture's directory. Every
+# consumer resolves against every name in this list.
+binaries = [
+    "evo",
+    "evo-plugin-tool",
+]
