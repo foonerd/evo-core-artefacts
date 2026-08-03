@@ -14,7 +14,7 @@ channel = "dev"
 updated_at = "2026-07-10T00:00:00Z"
 
 # Placeholder until the first v0.1.13 release is published.
-# Track 4G promote will advance this pointer.
+# A release promotion will advance this pointer.
 release_version = ""
 
 # Supported architectures for this release.
