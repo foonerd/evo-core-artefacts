@@ -64,7 +64,7 @@ Three consumer shapes exist today:
 - **Distribution CI**: fetches the same per-arch directory at a tagged version and includes the binaries in its own image build, instead of cross-building evo-core from source per release.
 - **Plugin developer**: fetches a reference plugin bundle from `bundles/<plugin>/<target>/` and admits it via `evo-plugin-tool install` against a steward running locally.
 
-The release-plane contract is OS-agnostic by design — evo-core itself never ships Debian control files, Yocto layers, or any other OS-shaped packaging. That layer is owned by individual distributions ([evo-device-volumio](https://github.com/foonerd/evo-device-volumio), and so on); each distribution maintains its own artefacts repository for its OS-specific pieces.
+The release-plane contract is OS-agnostic by design — evo-core itself never ships Debian control files, Yocto layers, or any other OS-shaped packaging. That layer is owned by individual distributions; each distribution maintains its own artefacts repository for its OS-specific pieces.
 
 ## Publishing artefacts
 
@@ -93,7 +93,6 @@ Live. Tagged releases populate the repository on every framework `v*.*.*` tag. C
 
 - [foonerd/evo-core](https://github.com/foonerd/evo-core) — the framework source repository this release plane serves.
 - [foonerd/evo-device-audio-artefacts](https://github.com/foonerd/evo-device-audio-artefacts) — the reference generic-device release plane; consumes binaries from this repository and ships brand-neutral audio plugins.
-- [foonerd/evo-device-volumio-artefacts](https://github.com/foonerd/evo-device-volumio-artefacts) — a vendor-distribution release plane (Volumio); consumes binaries from this repository for the steward and its own pieces for distribution-specific plugins.
 
 ## License
 
