@@ -3,7 +3,7 @@ kind = "core-binaries"
 evo_core_tag = "v0.1.13.0"
 target = "armv7-unknown-linux-gnueabihf"
 binaries = ["evo", "evo-plugin-tool"]
-built_at = "2026-09-08T16:59:02Z"
+built_at = "2026-09-12T18:59:36Z"
 publisher = "org.evoframework.core"
 
 [[auxiliary]]
